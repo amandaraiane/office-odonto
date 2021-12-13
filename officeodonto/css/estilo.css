@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    background-image:url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+        
+}
+
+
+.logo{
+  width: 220px;
+}
+
+input{
+    border-radius: 10px;
+    font-size: 15px;   
+}
+
+@media print{
+    .topo{
+        display: none !important;
+    }
+
+    button {
+        display: none !important;
+    }
+}
+
